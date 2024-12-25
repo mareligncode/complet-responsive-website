@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maru man
+    </title>
+</head>
+<body>
+    <div class="logo">
+        <h1>marelign yimer</h1>
+        <!-- logo -->
+         <h3>compputer science</h3>
+    </div>
+    <div class="navbar" id="mynavbar">
+        <a href="home.html">HOME</a>
+        <a href="design.html">DESIGN</a>
+        <div class="dropdown">
+            <button class="dropdownbtn">tutorials</button>
+            <div class="tutor">
+                <a href="#">html</a>
+                <a href="#">css</a>
+                <a href="#">js</a>
+                <a href="#">sql</a>
+                <a href="#">php</a>
+            </div>
+        </div>
+        <a href="#">CONTACT</a>
+        <a href="#">ABOUT</a>
+        <a href="#" class="ri">LOGIN </a>
+        <a href="#" class="ri">SIGNUP</a>
+        <a href="javascript:void(0);" class="icon" style="font-size:15px ;" onclick="myFunction()">&#9776;</a>
+
+    </div>
+    <div class="cont">
+        <h1><span id="s"> learn</span> <br><span id="l">technology</span></h1>
+        <p class="para" id="p">
+        learn technology from scrach is make powerfull!
+        <!-- descriptipn -->
+        </p>
+        <button class="learn"><a href="#">start now</a></button>
+    </div>
+     <script>
+       
+    //     function myFunction(){
+    // var a = document.getElementById("mynavbar");
+    // if (a.className === "navbar") {
+    //     a.className+= "responsive";
+    // } else {
+    //     a.className = "navbar";
+    // }
+
+    function myFunction() {
+    var navbar = document.getElementById("mynavbar");
+    navbar.classList.toggle("responsive");
+}
+
+
+    </script> 
+</body>
+</html>
